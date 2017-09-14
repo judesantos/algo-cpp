@@ -1,0 +1,3 @@
+to compile boost_threadpool:
+
+g++ boost_thread_pool.cpp -L/usr/lib/x86_64-linux-gnu/libboost_system.so -lboost_system -lboost_thread -Wall -o thread.exe
